@@ -1,0 +1,95 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: rgb(212, 208, 198);
+}
+
+html {
+  background-image: url(/img/fpfinal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #271c0c;
+  color: white;
+}
+
+
+p {
+  font-weight: bold;
+}
+main {
+  padding: 0 300px;
+  color: black;
+
+  h1 {
+    margin: 60px 0;
+    padding: 20px;
+    color: antiquewhite;
+    background-color: #271c0c;
+    border-radius: 10px;
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-top: 100px;
+}
+
+.grid-item {
+  text-align: center;
+  padding: 15px 10px;
+  background-color: rgb(233, 228, 216);
+  border-radius: 10px;
+}
+
+.img-index {
+  max-width: 80%;
+}
+
+.container-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 60px;
+}
+
+
+.gallery-img {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.gallery-item {
+  text-align: center;
+  padding: 15px 10px;
+  background-color: rgb(233, 228, 216);
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.img-page {
+  width: 550px;
+  margin: 60px 0;
+  padding: 20px;
+  color: antiquewhite;
+  background-color: #271c0c;
+  border-radius: 10px;
+}
